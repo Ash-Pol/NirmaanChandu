@@ -1,0 +1,65 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  
+}
+.heading{
+    text-align: center;
+    padding: 55px;
+    background-image: url(bg.jpg);
+    height: 190px;
+}
+.intro{
+    
+  padding-left: 280px;
+    padding-right: 280px;
+
+}
+h2{
+    font-size: 60px;
+    
+    font-style: italic;
+    
+}
+
+p{
+    font-size: 22px;
+    
+}
+.content {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    flex: 1;
+    color: whitesmoke;
+    padding: 30px;
+    border: 1px solid whitesmoke;
+    margin: 5px;
+    text-align: center;
+    background-image: url(space.jpg);
+    background-size: cover;
+}
+
+.box h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 22px;
+}
+footer {
+    background-color: rgba(37, 37, 36, 0.826);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
